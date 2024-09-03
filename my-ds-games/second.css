@@ -1,7 +1,6 @@
 body{
     background-color: #c29ee3;
     font-family:sans-serif;
-    display: flex;
     justify-content: center;
     align-items: center;
 }
@@ -9,17 +8,11 @@ body{
 
 h1{
     font-family: "Big Shoulders Inline Text", sans-serif;
-    font-size: 250px;
+    font-size: 30px;
     font-weight:bold;
 }
 
 ul{
     font-family: "Baloo 2", sans-serif;
     font-size:25px;
-}
-
-.container{
-    display: flex;
-    flex-direction: column;
-    align-content: center;
 }
