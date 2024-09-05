@@ -1,16 +1,23 @@
 body{
-    background-color: #c29ee3;
+    background-image: url(home\ screen.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 100%;
     font-family:sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
+    max-width: 100%;
 }
 
 
 h1{
     font-family: "Big Shoulders Inline Text", sans-serif;
-    font-size: 250px;
+    font-size: 100px;
     font-weight:bold;
+    color: #00bfffe9;
+    padding-bottom: 50px;
 }
 
 ul{
@@ -18,8 +25,18 @@ ul{
     font-size:25px;
 }
 
-.container{
+.h1{
+    align-items: center;
     display: flex;
     flex-direction: column;
-    align-content: center;
+    position: relative;
+    top: -20px;
+}
+
+.ds-container{
+    display: flex;
+    flex-flow: wrap;
+    flex-direction: row;
+    margin-top: 75px;
+    justify-content: space-between;
 }
