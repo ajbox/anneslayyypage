@@ -1,5 +1,5 @@
 body{
-    background-color: #c29ee3;
+    background-color: white;
     font-family:sans-serif;
     justify-content: center;
     align-items: center;
@@ -10,7 +10,9 @@ h1{
     font-family: "Big Shoulders Inline Text", sans-serif;
     font-size: 30px;
     font-weight:bold;
+    color: #00bfffe9;
 }
+
 
 ul{
     font-family: "Baloo 2", sans-serif;

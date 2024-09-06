@@ -3,7 +3,7 @@ body{
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
-    background-size: 100%;
+    background-size: 100%; 
     font-family:sans-serif;
     display: flex;
     justify-content: center;
@@ -29,14 +29,22 @@ ul{
     align-items: center;
     display: flex;
     flex-direction: column;
-    position: relative;
+    position: absolute;
     top: -20px;
+
 }
 
-.ds-container{
+.container{
     display: flex;
     flex-flow: wrap;
     flex-direction: row;
     margin-top: 75px;
     justify-content: space-between;
+    position: relative;
+    width: 100%;
+
 }
+
+/* .container a{
+display: block;
+} */
