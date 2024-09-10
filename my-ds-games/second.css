@@ -3,6 +3,7 @@ body{
     font-family:sans-serif;
     justify-content: center;
     align-items: center;
+    margin: 30px;
 }
 
 
@@ -25,3 +26,13 @@ p{
     font-family: "Baloo 2", sans-serif;
     font-size:25px;
 }
+
+h3{
+    font-family: "Baloo 2", sans-serif;
+    font-size:25px;
+    padding: 20px;
+}
+
+
+
+

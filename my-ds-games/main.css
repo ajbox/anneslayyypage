@@ -5,7 +5,6 @@ body{
     background-attachment: fixed;
     background-size: 100%; 
     font-family:sans-serif;
-    display: flex;
     justify-content: center;
     align-items: center;
     max-width: 100%;
@@ -26,24 +25,24 @@ ul{
 }
 
 .h1{
+    justify-content: center;
     align-items: center;
     display: flex;
     flex-direction: column;
-    position: absolute;
-    top: -20px;
 
 }
 
 .container{
     display: flex;
-    flex-flow: wrap;
     flex-direction: row;
-    margin-top: 75px;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: space-around;
     position: relative;
     width: 100%;
 
 }
+
+
 
 /* .container a{
 display: block;
