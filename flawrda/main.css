@@ -89,6 +89,12 @@ p{
     background: #f1f9a6;
     border: coral solid 2px;
     border-radius: 15px;
+    overflow: hidden;
+}
+
+.middle-item2 img{
+    width: 200px;
+    display: block;
 }
 
 .middle3{
