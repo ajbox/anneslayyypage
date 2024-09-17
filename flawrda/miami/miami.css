@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+}
+
+img{
+    max-width: 100%;
+}
+
+body{
+    background: #ccda46;
+    margin: 0;
+}
+
+h1{
+    font-family: "jaf-domus-titling-web", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+}
+
+p{
+    font-family: "jaf-domus-titling-web", sans-serif;
+    font-weight: medium;
+    font-style: normal;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.top{
+    height: 30%;
+    width: 100%;
+    display: flex;
+}
+
+.top-item{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
