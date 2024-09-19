@@ -6,6 +6,10 @@ img{
     max-width: 100%;
 }
 
+video{
+    max-width: 100%;
+}
+
 body{
     background: #ccda46;
     margin: 0;
@@ -42,4 +46,96 @@ p{
     align-items: center;
     margin-top: 20px;
     margin-bottom: 40px;
+}
+
+.middle{
+    width: 100%;
+    height: auto;
+    display: flex;
+    gap: 370px;
+    justify-content: center;
+    align-items: center;
+}
+
+.middle-item{
+    flex-direction: row;
+    width: 600px;
+}
+
+.middle2{
+    width: 100%;
+    height: auto;
+    display: flex;
+    gap: 370px;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 150px;
+}
+
+.middle-item2{
+    flex-direction: row;
+}
+
+.middle3{
+    width: 100%;
+    height: auto;
+    display: flex;
+    gap: 250px;
+    justify-content: center;
+    align-items: center;
+}
+
+.middle-item3{
+    flex-direction: row;
+    width: 600px;
+}
+
+.middle4{
+    width: 100%;
+    height: auto;
+    display: flex;
+    gap: 270px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+    padding-bottom: 150px;
+}
+
+.middle-item4{
+    flex-direction: row;
+}
+
+.middle5{
+    width: 100%;
+    height: auto;
+    display: flex;
+    gap: 60px;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 150px;
+    padding-bottom: 150px;
+}
+
+.middle-item5{
+    flex-direction: row;
+}
+
+h2{
+    font-family: "jaf-domus-titling-web", sans-serif;
+    font-weight: medium;
+    font-style: normal;
+}
+
+.bottom{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-bottom: 100px;
+}
+
+.bottom-item{
+    flex-direction: row;
+    margin-left: 30px;
 }

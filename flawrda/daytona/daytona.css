@@ -1,0 +1,143 @@
+*{
+    box-sizing: border-box;
+}
+
+img{
+    max-width: 100%;
+}
+
+body{
+    background: #ccda46;
+    margin: 0;
+}
+
+h1{
+    font-family: "jaf-domus-titling-web", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+}
+
+p{
+    font-family: "jaf-domus-titling-web", sans-serif;
+    font-weight: medium;
+    font-style: normal;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.top{
+    height: 30%;
+    width: 100%;
+    display: flex;
+}
+
+.top-item{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.top2{
+    height: 30%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.top-item2{
+    width: 200px;
+    flex-direction: row;
+    margin-bottom: 40px;
+}
+
+.middle{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 330px;
+    
+}
+
+.middle-item{
+    flex-direction: row;
+    width: 400px;
+}
+
+.middle2{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 390px;
+    padding-bottom: 150px;
+    
+}
+
+.middle-item2{
+    flex-direction: row;
+    width: 400px;
+}
+
+.middle3{
+    width: 100%;
+    height: auto;
+    display: flex;
+    gap: 300px;
+    justify-content: center;
+    align-items: flex-end;
+    padding-left: 180px;
+}
+
+.middle-item3{
+    flex-direction: row;
+    width: 200px;
+}
+
+.middleitem3{
+    flex-direction: row;
+    width: 700px;
+}
+
+.middle4{
+    width: 98%;
+    height: auto;
+    display: flex;
+    gap: 570px;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 150px;
+}
+
+.middle-item4{
+    flex-direction: row;
+}
+
+.middleitem4{
+    flex-direction: row;
+}
+
+.bottom{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-bottom: 100px;
+}
+
+.bottom-item{
+    flex-direction: row;
+    margin-left: 30px;
+}

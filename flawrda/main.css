@@ -115,7 +115,6 @@ p{
     border-radius: 15px;
     align-items: center;
     justify-content: center;
-    overflow: hidden;
 
 }
 
@@ -135,14 +134,21 @@ p{
     flex-direction: column;
     padding-left: 300px;
     padding-bottom: 50px;
-    
 }
 
 .middle-item4{
     background: #f1f9a6;
     border: coral solid 2px;
     border-radius: 15px;
+    overflow: hidden;
 }
+
+.middle-item4 img{
+    width: 200px;
+    height: 180px;
+    display: block;
+}
+
 
 .middle5{
     width: 83%;
@@ -153,14 +159,21 @@ p{
     align-items: flex-end;
     flex-direction: column;
     padding-bottom: 50px;
-    
 }
 
 .middle-item5{
     background: #f1f9a6;
     border: coral solid 2px;
     border-radius: 15px;
+    overflow: hidden;
 }
+
+.middle-item5 img{
+    width: 200px;
+    height: 180px;
+    display: block;
+}
+
 
 .middle6{
     width: 83%;
@@ -181,12 +194,24 @@ p{
     height: 400px;
     border-radius: 15px;
     justify-content: center;
+    overflow: hidden;
 }
 
 .middle-item6{
     background: #f1f9a6;
     border: coral solid 2px;
     border-radius: 15px;
+    overflow: hidden;
+}
+
+.middle-item6 img{
+    display: block;
+}
+
+.middle-item6 img{
+    width: 200px;
+    height: 180px;
+    display: block;
 }
 
 .middle7{

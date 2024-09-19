@@ -1,0 +1,171 @@
+*{
+    box-sizing: border-box;
+}
+
+img{
+    max-width: 100%;
+}
+
+body{
+    background: #ccda46;
+    margin: 0;
+}
+
+h1{
+    font-family: "jaf-domus-titling-web", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+}
+
+p{
+    font-family: "jaf-domus-titling-web", sans-serif;
+    font-weight: medium;
+    font-style: normal;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.top{
+    height: 30%;
+    width: 100%;
+    display: flex;
+}
+
+.top-item{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.middle{
+    width: 100%;
+    height: auto;
+    display: flex;
+    gap: 320px;
+    justify-content: center;
+    align-items: center;
+}
+
+.middleitem{
+    flex-direction: row;
+    width: 600px;
+}
+
+.middle-item{
+    flex-direction: row;
+    width: 400px;
+}
+
+.middle2{
+    width: 100%;
+    height: auto;
+    display: flex;
+    gap: 370px;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 150px;
+}
+
+.middle-item2{
+    flex-direction: row;
+}
+
+.middle3{
+    width: 100%;
+    height: auto;
+    display: flex;
+    gap: 200px;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.middleitem3{
+    flex-direction: row;
+    width: 200px;
+}
+
+.middle-item3{
+    flex-direction: row;
+    width: 450px;
+}
+
+
+.middle4{
+    width: 100%;
+    height: auto;
+    display: flex;
+    gap: 200px;
+    align-items: flex-start;
+    padding-left: 50px;
+    padding-bottom: 150px;
+}
+
+.middleitem4{
+    flex-direction: row;
+    width: 200px;
+}
+
+.middle-item4{
+    flex-direction: row;
+}
+
+.middle5{
+    width: 100%;
+    height: auto;
+    display: flex;
+    gap: 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+.middleitem5{
+    flex-direction: row;
+    width: 600px;
+}
+
+.middle-item5{
+    flex-direction: row;
+    width: 400px;
+}
+
+.middle6{
+    width: 100%;
+    height: auto;
+    display: flex;
+    gap: 350px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 300px;
+    padding-bottom: 150px;
+}
+
+.middleitem6{
+    flex-direction: row;
+    width: 600px;
+}
+
+.middle-item6{
+    flex-direction: row;
+    width: 400px;
+}
+
+.bottom{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-bottom: 100px;
+}
+
+.bottom-item{
+    flex-direction: row;
+    margin-left: 30px;
+}
