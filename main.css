@@ -1,12 +1,59 @@
+*{
+    box-sizing: border-box;
+}
+
 body{
-   /* background-image: url(wp2754860.jpeg);
-    background-repeat: no-repeat;
-    background-position: center;
+    margin: 0;
+    background-image: url(purplepaper.png);
+    background-repeat: repeat;
     background-attachment: fixed;
     background-size: 100%; 
-    */
-    font-family:sans-serif;
-    justify-content: center;
-    align-items: center;
     max-width: 100%;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.top{
+    height: 15vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 60px;
+}
+
+.top1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.top1 img{
+    width: 30vw;
+}
+
+.middle{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    padding: 15px;
+}
+
+.middle1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.middle1 img{
+    width: 20vw;
+}
+
+.postcard img{
+    width: 30vw;
 }
