@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background: lightblue;
+    transition: background .5s;
+}
+
+body.dark{
+    background: darkblue;
+}
+
+img{
+    max-width: 100%;
+}
+
+.menu{
+    background: lightblue;
+    position: fixed;
+    right: -200px;
+    top: 0;
+    height: 100%;
+    width: 200px;
+    padding: 20px;
+    text-align: center;
+    transition:right .5s;
+    border: 1px solid;
+}
+
+.active{
+    right:0;
+  }
+
+  .gear{
+    background: darkblue;
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    bottom: 30px;
+    left: 30px;
+  }
