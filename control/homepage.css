@@ -17,14 +17,14 @@ h1{
     font-weight: 800;
     font-style: normal;
     font-size: 60pt;
-    color: #10055a;
+    color: aliceblue;
 }
 
 p{
     font-family: "Dongle", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 36pt;
+    font-size: 18pt;
     color: aliceblue;
 }
 
@@ -36,7 +36,7 @@ p{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-bottom: 80px;
+    padding-bottom: 100px;
 
 }
 
@@ -53,4 +53,34 @@ button{
 
 .title{
     padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.bottom{
+    display: flex;
+    flex-direction: row;
+    gap: 400px;
+}
+
+.directions{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-items: flex-end;
+}
+
+li{
+    font-family: "Dongle", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18pt;
+    color: aliceblue;
+}
+
+.warning{
+    color: rgb(203, 19, 19);
+    font-weight: 900;
+    background-color: aliceblue;
+    border-radius: 5px;
 }
