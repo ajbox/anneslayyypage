@@ -1,0 +1,91 @@
+*{
+    box-sizing: border-box;
+}
+
+img{
+    max-width: 100%;
+}
+
+body{
+    margin: 0;
+    height: 100vh;
+    background-color: slategray;
+}
+
+h1{
+    font-family: "Dongle", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40pt;
+    color: #10055a;
+}
+
+p{
+    font-family: "Dongle", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 36pt;
+    color: aliceblue;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.container img{
+    width: 400px;
+    
+}
+
+.top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    padding-bottom: 60px;
+    padding-top: 100px;
+}
+
+.middle{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 60px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+/* Cursor */
+.cursor{
+    position: relative;
+    width: 18em;
+    margin: 0 auto;
+    border-right: 2px solid rgba(255,255,255,.75);
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+       
+}
+/* Animation */
+.typewriter-animation {
+  animation: 
+    typewriter 4s steps(50) 1s 1 normal both, 
+    blinkingCursor 400ms steps(50) infinite normal;
+}
+@keyframes typewriter {
+  from { width: 0; }
+  to { width: 20%; }
+}
+@keyframes blinkingCursor{
+  from { border-right-color: rgba(255,255,255,.75); }
+  to { border-right-color: transparent; }
+}
+
+.bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}

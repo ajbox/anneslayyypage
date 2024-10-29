@@ -1,0 +1,89 @@
+*{
+    box-sizing: border-box;
+}
+
+img{
+    max-width: 100%;
+}
+
+body{
+    margin: 0;
+    height: 100vh;
+    background-color: slategray;
+}
+
+h1{
+    font-family: "Dongle", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40pt;
+    color: #10055a;
+}
+
+p{
+    font-family: "Dongle", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20pt;
+    color: aliceblue;
+}
+
+
+.container{
+    display: flex;
+    flex-direction: row;
+    gap: 120px;
+    padding-bottom: 150px;
+    justify-content: flex-end;
+}
+
+.reveal-vid{
+    display: none;
+    justify-content: center;
+    padding-top: 90px;
+    padding-right: 50px;
+}
+
+.reveal-vid.reveal{
+    display: flex;
+}
+
+.guess-area{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 120px;
+    padding-top: 60px;
+}
+
+.guess-area img{
+    width: 550px;
+    
+}
+
+.guesses{
+    width: 80px;
+}
+
+.close{
+    color: chartreuse;
+}
+
+.wrong{
+    text-decoration: line-through;
+    color: #3a4552;
+}
+
+.pic1{
+    padding-bottom: 10px;
+}
+
+.twitter-tweet{
+    width: 960px;
+}
+
+.bottom{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 50px;
+}

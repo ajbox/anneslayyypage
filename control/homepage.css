@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+}
+
+img{
+    max-width: 100%;
+}
+
+body{
+    margin: 0;
+    height: 100vh;
+    background-color: slategray;
+}
+
+h1{
+    font-family: "Dongle", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 60pt;
+    color: #10055a;
+}
+
+p{
+    font-family: "Dongle", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 36pt;
+    color: aliceblue;
+}
+
+.top{
+    height: 30%;
+}
+
+.gotohome{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 80px;
+
+}
+
+button{
+    background-color: aliceblue;
+    border: none;
+    border-radius: 5px;
+    font-family: "Dongle", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18pt;
+    color: #10055a;
+}
+
+.title{
+    padding-left: 50px;
+}
