@@ -8,7 +8,14 @@ img{
 
 body{
     margin: 0 auto;
+    margin-top: 40px;
     background-color: rgb(210, 240, 180);
+}
+
+h1{
+    font-family: "Borel", serif;
+    font-weight: 600;
+    
 }
 
 .container{
@@ -17,15 +24,35 @@ body{
 }
 
 .top{
-    margin: 30px;
+    margin: 25px;
+    padding-top: 40px;
+    padding-left: 30px;
 }
 
-.middle{
+.feed{
+    justify-content: center;
     padding: 20px;
     align-content: center;
-    width: 85%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
 }
 
-.middle img{
-    width: 300px;
+.container img{
+    width: 320px;
+    height: 360px;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.hidden{
+    align-content: center;
+    display: none;
+}
+
+button{
+    background-color: lavender;
+    height: 50px;
+    border: none;
+    position: sticky;
 }
