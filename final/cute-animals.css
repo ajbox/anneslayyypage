@@ -18,6 +18,11 @@ h1{
     
 }
 
+p{
+    font-family: "Borel", serif;
+    font-weight: 600;
+}
+
 .container{
     display: flex;
     flex-direction: column;
@@ -55,4 +60,40 @@ button{
     height: 50px;
     border: none;
     position: sticky;
+}
+
+.aa:hover{
+    transform: scale(1.2);
+}
+
+.middle0:hover{
+    transform: scale(1.2)
+}
+
+.middle1:hover{
+    transform: scale(1.2)
+}
+
+.middle2:hover{
+    transform: scale(1.2)
+}
+
+.middle3:hover{
+    transform: scale(1.2)
+}
+
+.middle4:hover{
+    transform: scale(1.2)
+}
+
+.middle5:hover{
+    transform: scale(1.2)
+}
+
+.middle6:hover{
+    transform: scale(1.2)
+}
+
+.middle7:hover{
+    transform: scale(1.2)
 }
