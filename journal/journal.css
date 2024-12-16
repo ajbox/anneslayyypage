@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+}
+
+img{
+    max-width: 100%;
+}
+
+body{
+    margin: 0 auto;
+    background-color: lavender;
+    font-family: monospace;
+    color: rgb(100, 21, 173);
+}
+
+p{
+    font-size: 14pt;
+}
+
+.container{
+    padding: 30px;
+    width: 90%;
+}

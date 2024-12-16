@@ -1,0 +1,158 @@
+*{
+    box-sizing: border-box;
+}
+
+img{
+    max-width: 100%;
+}
+
+body{
+    background: lightgoldenrodyellow;
+    margin: 0 auto;
+}
+
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.top{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+}
+
+.fade-in{
+   animation: fade-in 130s; 
+   width: 50%;
+}
+
+p{
+    display: none;
+}
+
+@keyframes fade-in{
+    0%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 100;
+    }
+}
+
+.middle{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.tablet{
+    display: none;
+}
+
+.bottom{
+    display: flex;
+    flex-direction: row;
+    padding-left: 300px;
+    padding-bottom: 150px;
+
+}
+
+#magenta{
+    display: none;
+}
+
+#blue{
+    width: 70%;
+}
+
+/*tablet styles*/
+@media screen and (max-width:900px){
+    /*body{
+        background-color:#edd941;
+    }*/
+
+    .fade-in{
+        width: 70%;
+        padding-left: 30px;
+    }
+
+    #yellow, #blue{
+        display: none;
+    }
+
+    #magenta{
+        width: 90%;
+        display: block;
+        align-items: center;
+        padding-top: 10px;
+    }
+
+    .middle{
+        flex-wrap: wrap;
+    }
+
+    .left, .right, .top{
+        width: 100%;
+    }
+
+    .tablet{
+        display: block;
+    }
+
+    .desktop{
+        display: none;
+    }
+}
+
+/*phone styles*/
+@media screen and (max-width: 600px){
+    /*body{
+        background: #e4ca32;
+        font-size: 150%;
+    }*/
+    .fade-in{
+        display: none;
+    }
+
+    p{
+        display: block;
+        margin-left: 50px;
+        margin-right: 50px;
+        padding-bottom: 20px;
+        font-family: "Afacad Flux", sans-serif;
+        font-style: normal;
+    }
+
+    #magenta{
+        display: none;
+    }
+
+    .middle{
+        flex-wrap: wrap;
+    }
+
+    .left, .right, .top{
+        width: 100%;
+    }
+
+    .bottom{
+        display: none;
+    }
+
+    .tablet{
+        display: block;
+    }
+
+    .desktop{
+        display: none;
+    }
+    
+}

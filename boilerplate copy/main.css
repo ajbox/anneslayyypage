@@ -1,0 +1,92 @@
+*{
+   /* box-sizing: border-box;*/
+}
+
+img{
+    max-width: 100%;
+}
+
+body{
+    background-color: lightgreen;
+}
+
+.content-box{
+    background: lightgray;
+    width: 200px;
+    height: 200px;
+    padding: 40px;
+    border: 5px solid red;
+    margin: 50px;
+}
+
+.border-box{
+    background: lightgray;
+    width: 200px;
+    height: 200px;
+    padding: 40px;
+    border: 5px solid red;
+    margin: 50px;
+    box-sizing: border-box;
+}
+
+p{
+    /*1st value is for top/bottom
+    2nd value is for left/right*/
+    margin:30px 10px;
+    /*      top  r   botm  l
+    */
+    margin:30px 20px 10px 60px;
+}
+
+.square{
+    background: honeydew;
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    border: 1px solid darkblue;
+    margin: 20px 0;
+    box-sizing: border-box;
+}
+
+.relative{
+    background:burlywood;
+    position: relative;  
+    z-index: 1;
+}
+
+.fixed{
+    background: pink;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: 0;
+}
+
+.container{
+    background: dimgray;
+    width: 500px;
+    height: 300px;
+    border: 1px solid darkblue;
+    margin: 20px 0;
+    box-sizing: border-box;
+    position: relative;
+}
+.absolute{
+    background: coral;
+    position:absolute;
+    top:100%;
+    left:100%;
+    margin: 0;
+    width: 200px;
+    height: 200px;
+
+
+}
+
+.sticky{
+    background: darkslategray;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}

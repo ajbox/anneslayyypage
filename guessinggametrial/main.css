@@ -1,0 +1,15 @@
+.java-stuff{
+    padding-bottom: 30px;
+}
+
+/*.reveal-words{
+    display: none;
+}
+
+.reveal-words.reveal{
+    display: block;
+} */
+
+.wrong{
+    text-decoration: line-through;
+}
