@@ -41,6 +41,10 @@ p{
     padding-left: 35px;
 }
 
+.search img{
+    width: 15px;
+    height: 15px;
+}
 
 .search{
     top: 50%;

@@ -41,8 +41,14 @@ p{
     padding-left: 35px;
 }
 
+.search img{
+    width: 6%;
+    height: auto;
+    margin-left: 12px;
+}
 
 .search{
+    align-content: center;
     top: 50%;
     margin-left: 100px;
     width: 650px;
@@ -58,7 +64,8 @@ p{
     position: absolute;
     background-color: #fff6f6;
     min-width: 160px;
-    margin-top: 93px;
+    margin-top: 20px;
+    margin-left: 40px;
     font-family: "Afacad Flux", sans-serif;
     font-weight: 400;
     font-size: 20pt; 
